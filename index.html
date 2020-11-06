@@ -3,22 +3,21 @@
   <head>
     <title>SourceAmerica Design Challenge</title>
     <link href="main.css" type="text/css" rel="stylesheet">
-    <script src="main.js"></script>
   </head>
   <body>
     <div class="header">
       <h1>Time Clock</h1>
     </div>
     <div id="wrap"> 
-        <h3>Signup Form</h3>
-        <p>Please enter your name and email addres to create your account</p>
-        <form action="main.php" method="post">
-            <label for="name">Email:</label>
-            <input type="text" name="name" value="" />
-            <br><label for="password">Password:</label>
-            <input type="text" name="password" value="" />
+        <h3>Sign In/Sign Out Form</h3>
+        <p>Please enter your email and password for verification</p>
+        <form action="" method="post">
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="email" value="" />
+            <label for="password">Password:</label>
+            <input id="password" type="text" name="password" value="" />
               
-            <br><input type="submit" class="submit_button" value="Sign up" />
+            <br><br><input type="submit" class="submit_button" value="Submit" />
         </form>
     </div>
   </body>
