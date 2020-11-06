@@ -1,42 +1,40 @@
 html{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 .header{
   padding: 1px;
   text-align: center;
-  background: #00008b;
+  background: #000000;
   color: white;
   font-size: 18px;
 }
 
 #wrap{
-    background: #FFFFFF; /* Set content background to white */
-    width: 615px; /* Set the width of our content area */
-    margin: 0 auto; /* Center our content in our browser */
-    margin-top: 50px; /* Margin top to make some space between the header and the content */
-    padding: 10px; /* Padding to make some more space for our text */
-    border: 1px solid #DFDFDF; /* Small border for the finishing touch */
-    text-align: center; /* Center our content text */
-}
-  
-#wrap h3{
-    font: italic 22px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */
+    background: #FFFFFF;
+    margin: 0 auto; 
+    margin-top: 5px; 
+    padding: 10px;
+    border: 1px solid #DFDFDF;
+    text-align: center;
 }
   
 /* Form & Input field styles */
   
 form{
-    margin-top: 10px; /* Make some more distance away from the description text */
+    margin-top: 10px;
+}
+
+#email, #password{
+  margin: 0 auto;
 }
   
 form .submit_button{
-    background: #F9F9F9; /* Set button background */
-    border: 1px solid #DFDFDF; /* Small border around our submit button */
-    padding: 8px; /* Add some more space around our button text */
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    padding: 8px;
 }
   
 input{
-    font: normal 16px Georgia; /* Set font for our input fields */
-    border: 1px solid #DFDFDF; /* Small border around our input field */
-    padding: 8px; /* Add some more space around our text */
+    border: 1px solid #DFDFDF;
+    padding: 8px;
 }
