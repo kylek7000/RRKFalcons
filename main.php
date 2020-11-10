@@ -3,6 +3,10 @@
   $email = $POST["email"]
   $password = $POST["password"];
 
-  echo "Incorrect Password or Email";
+  if ($email == "admin" && $password == "password"){
+    echo "Welcom Admin!"    
+  } else {
+    echo "Incorrect Password or Email";
+  }
 
 ?>
