@@ -10,7 +10,7 @@
     </div>
     <div id="wrap">
         <h3>Clock In/Out</h3>
-        <p>Please Enter Which Job You Are Cloking In/Out Of</p>
+        <p>Please Enter Which Job You Are Clocking In/Out Of</p>
         <form action="sumbitdata.php" method="post">
             <label for="job">Job:</label>
             <input id="job" type="text" name="job" value="" />
